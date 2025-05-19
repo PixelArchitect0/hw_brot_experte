@@ -6,12 +6,15 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body class="bg-white">
 <header class=" pt-3 container">
-    <div class="row pb-4 " >
+    <div class="row pb-4 ">
         <div class="col-6">
             <div class="logo ">
                 <span class="logo-orange">BrotExperte</span><span class="logo-gray">.de</span>
@@ -22,21 +25,21 @@
             <div class="icon-search "></div>
         </div>
     </div>
-        <ul class="nav-list list-unstyled d-flex justify-content-between  pt-4 pb-4">
-            <li><a href="#" class="nav-link">Ernährung</a></li>
-            <li><a href="#" class="nav-link">Brotkultur</a></li>
-            <li><a href="#" class="nav-link">Brotsorten</a></li>
-            <li><a href="#" class="nav-link">Brothistorie</a></li>
-            <li><a href="#" class="nav-link">Brotmarkt</a></li>
-            <li><a href="#" class="nav-link">Brotzutaten</a></li>
-            <li><a href="#" class="nav-link">Brotherstellung</a></li>
-            <li><a href="#" class="nav-link">Brotqualität</a></li>
-            <li><a href="#" class="nav-link">Brotreise</a></li>
-            <li><a href="#" class="nav-link">Brotworte</a></li>
-        </ul>
+    <ul class="nav-list list-unstyled d-flex justify-content-between  pt-4 pb-4">
+        <li><a href="#" class="nav-link">Ernährung</a></li>
+        <li><a href="#" class="nav-link">Brotkultur</a></li>
+        <li><a href="#" class="nav-link">Brotsorten</a></li>
+        <li><a href="#" class="nav-link">Brothistorie</a></li>
+        <li><a href="#" class="nav-link">Brotmarkt</a></li>
+        <li><a href="#" class="nav-link">Brotzutaten</a></li>
+        <li><a href="#" class="nav-link">Brotherstellung</a></li>
+        <li><a href="#" class="nav-link">Brotqualität</a></li>
+        <li><a href="#" class="nav-link">Brotreise</a></li>
+        <li><a href="#" class="nav-link">Brotworte</a></li>
+    </ul>
 </header>
 <main>
-    <section class="main-img position-relative d-flex align-items-end">
+    <section class="main-img position-relative d-flex align-items-end ">
         <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
 
         <div class="container position-relative py-5">
@@ -44,35 +47,234 @@
                 <p class="small text-uppercase text-white">Alle unsere</p>
                 <h1 class="display-4 fw-bold text-white pb-3">Brotlinks</h1>
                 <p class="lead text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum.
                 </p>
             </div>
         </div>
     </section>
-    <section class="container">
-        <div class="row">
-            <div class="col-6">
-                <div class="row g-4">
-                    <div class="col-6 col-sm-6 col-lg-4">
-                        <div class="card position-relative">
-                            <div class="position-absolute top-0 start-0  text-white text-uppercase brotlink-color">
-                                <p class="mb-0 pt-2 pb-2 px-4 py-4">Brotlink</p>
-                            </div>
-                            <div></div>
-                            <div class="card-body">
-                                <h5 class="card-title">Akademie Weinheim</h5>
-                                <p class="card-text text-muted small">www.akademie-weinheim.de</p>
-                                <p class="card-text">Fermentum tortor non enim aliquet mauris del condimentum. Nam aliquam pretium duis sem feugiat condimentum.</p>
-                                <a href="#" class="btn btn-warning">Besuchen</a>
-                            </div>
+    <section class="container pt-5">
+        <div class="row g-4">
+            <!-- Левая часть: карточки -->
+            <div class="col-lg-8">
+                <div class="brotlink-grid">
+                    <!-- Карточка 1 -->
+
+                    <div class="card position-relative">
+                        <div class="position-absolute top-0 start-0 text-white text-uppercase brotlink-color">
+                            <p class="mb-0 pt-2 pb-2 px-4 py-4">Brotlink</p>
+                        </div>
+                        <div class="card-logo"></div>
+                        <div class="card-body px-4 card-bottom">
+                            <h5 class="card-title">Akademie Weinheim</h5>
+                            <p class="card-text text-muted small">www.akademie-weinheim.de</p>
+                            <p class="card-text">Fermentum tortor non enim aliquet mauris del condimentum. Nam
+                                aliquam pretium duis sem feugiat condimentum.</p>
+                            <a href="#" class="btn btn-warning text-white ps-4 pe-4 ">Besuchen</a>
                         </div>
                     </div>
 
+
+                    <!-- Карточка 2 -->
+
+                    <div class="card position-relative">
+                        <div class="position-absolute top-0 start-0 text-white text-uppercase brotlink-color">
+                            <p class="mb-0 pt-2 pb-2 px-4 py-4 ">Brotlink</p>
+                        </div>
+                        <div class="card-logo"></div>
+                        <div class="card-body px-4 card-bottom">
+                            <h5 class="card-title">Akademie Weinheim</h5>
+                            <p class="card-text text-muted small">www.akademie-weinheim.de</p>
+                            <p class="card-text">Fermentum tortor non enim aliquet mauris del condimentum. Nam
+                                aliquam pretium duis sem feugiat condimentum.</p>
+                            <a href="#" class="btn btn-warning text-white ps-4 pe-4">Besuchen</a>
+                        </div>
+                    </div>
+
+
+                    <!-- Карточка 3 -->
+
+                    <div class="card position-relative">
+                        <div class="position-absolute top-0 start-0 text-white text-uppercase brotlink-color">
+                            <p class="mb-0 pt-2 pb-2 px-4 py-4">Brotlink</p>
+                        </div>
+                        <div class="card-logo"></div>
+                        <div class="card-body px-4 card-bottom">
+                            <h5 class="card-title">Akademie Weinheim</h5>
+                            <p class="card-text text-muted small">www.akademie-weinheim.de</p>
+                            <p class="card-text">Fermentum tortor non enim aliquet mauris del condimentum. Nam
+                                aliquam pretium duis sem feugiat condimentum.</p>
+                            <a href="#" class="btn btn-warning text-white ps-4 pe-4">Besuchen</a>
+                        </div>
+                    </div>
+
+
+                    <!-- Карточка 4 -->
+
+                    <div class="card position-relative">
+                        <div class="position-absolute top-0 start-0 text-white text-uppercase brotlink-color">
+                            <p class="mb-0 pt-2 pb-2 px-4 py-4">Brotlink</p>
+                        </div>
+                        <div class="card-logo"></div>
+                        <div class="card-body px-4 card-bottom">
+                            <h5 class="card-title">Akademie Weinheim</h5>
+                            <p class="card-text text-muted small">www.akademie-weinheim.de</p>
+                            <p class="card-text">Fermentum tortor non enim aliquet mauris del condimentum. Nam
+                                aliquam pretium duis sem feugiat condimentum.</p>
+                            <a href="#" class="btn btn-warning text-white ps-4 pe-4">Besuchen</a>
+                        </div>
+                    </div>
+
+
+                    <!-- Карточка 5 -->
+
+                    <div class="card position-relative">
+                        <div class="position-absolute top-0 start-0 text-white text-uppercase brotlink-color">
+                            <p class="mb-0 pt-2 pb-2 px-4 py-4">Brotlink</p>
+                        </div>
+                        <div class="card-logo"></div>
+                        <div class="card-body px-4 card-bottom">
+                            <h5 class="card-title">Akademie Weinheim</h5>
+                            <p class="card-text text-muted small">www.akademie-weinheim.de</p>
+                            <p class="card-text">Fermentum tortor non enim aliquet mauris del condimentum. Nam
+                                aliquam pretium duis sem feugiat condimentum.</p>
+                            <a href="#" class="btn btn-warning text-white ps-4 pe-4">Besuchen</a>
+                        </div>
+                    </div>
+
+
+                    <!-- Карточка 6 -->
+
+                    <div class="card position-relative brotlink-color ">
+                        <div class="position-absolute top-0 start-0 text-white text-uppercase brotlink-color ">
+                            <p class="mb-0 pt-2 pb-2 px-4 py-4">Brotlink</p>
+                        </div>
+                        <div class="card-logo"></div>
+                        <div class="card-body px-4 card-bottom">
+                            <h5 class="card-title">Akademie Weinheim</h5>
+                            <p class="card-text text-muted small">www.akademie-weinheim.de</p>
+                            <p class="card-text">Fermentum tortor non enim aliquet mauris del condimentum. Nam
+                                aliquam pretium duis sem feugiat condimentum.</p>
+                            <a href="#" class="btn btn-warning text-white ps-4 pe-4">Besuchen</a>
+                        </div>
+                    </div>
+
+                    <div class="custom-pages nav-block  text-uppercase fw-bold">
+                        5 von 13 Links
+                    </div>
+                    <div class="custom-pages justify-content-end">
+                        <a href="#" class="nav disabled">Zurück</a>
+                        <a href="#" class="page active">1</a>
+                        <a href="#" class="page">2</a>
+                        <a href="#" class="page">3</a>
+                        <a href="#" class="nav">Weiter</a>
+                    </div>
+
+
                 </div>
             </div>
-            <div class="col-6"></div>
+
+            <!-- Правая колонка -->
+            <div class="col-lg-4">
+                <h6 class="text-uppercase">Seite teilen</h6>
+                <div class="d-flex gap-2 mb-4">
+
+                    <a href="#" class="btn-social facebook">
+                        <span class="icon"><i class="fa fa-facebook"></i></span>
+                        <span class="text">Share</span>
+                    </a>
+
+                    <a href="#" class="btn-social twitter">
+                        <span class="icon"><i class="fa fa-twitter"></i></span>
+                        <span class="text">Tweet</span>
+                    </a>
+
+                    <a href="#" class="btn-social google">
+                        <span class="icon"><i class="fa fa-google-plus"></i></span>
+                        <span class="text">Share</span>
+                    </a>
+
+                </div>
+
+                <div class="mb-4">
+                    <div class="p-4 bg-light rounded shadow-sm h-100">
+                        <small class="text-muted d-block mb-2 text-uppercase">Brotkultur, 25/06/2015</small>
+                        <h6 class="fw-bold mb-3">Von ägyptischen Kornmahlerinnen zur modernen Mühle</h6>
+                        <p class="text-muted small mb-0">Fermentum tortor non enim aliquet mauris del condimentum. Nam
+                            aliquam pretium duis sem feugiat con...</p>
+                    </div>
+                </div>
+
+
+                <div class="mb-4">
+                    <div class="p-4 bg-light rounded shadow-sm h-100">
+                        <small class="text-muted d-block mb-2 text-uppercase">Brotkultur, 25/06/2015</small>
+                        <h6 class="fw-bold mb-3">Von ägyptischen Kornmahlerinnen zur modernen Mühle</h6>
+                        <p class="text-muted small mb-0">Fermentum tortor non enim aliquet mauris del condimentum. Nam
+                            aliquam pretium duis sem feugiat con...</p>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <div class="p-4 bg-light rounded shadow-sm h-100">
+                        <small class="text-muted d-block mb-2 text-uppercase">Brotkultur, 25/06/2015</small>
+                        <h6 class="fw-bold mb-3">Von ägyptischen Kornmahlerinnen zur modernen Mühle</h6>
+                        <p class="text-muted small mb-0">Fermentum tortor non enim aliquet mauris del condimentum. Nam
+                            aliquam pretium duis sem feugiat con...</p>
+                    </div>
+                </div>
+
+
+                <div class="mb-4">
+                    <div class="p-4 bg-light rounded shadow-sm h-100">
+                        <small class="text-muted d-block mb-2 text-uppercase">Brotkultur, 25/06/2015</small>
+                        <h6 class="fw-bold mb-3">Von ägyptischen Kornmahlerinnen zur modernen Mühle</h6>
+                        <p class="text-muted small mb-0">Fermentum tortor non enim aliquet mauris del condimentum. Nam
+                            aliquam pretium duis sem feugiat con...</p>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <div class="p-4 bg-light rounded shadow-sm h-100">
+                        <small class="text-muted d-block mb-2 text-uppercase">Brotkultur, 25/06/2015</small>
+                        <h6 class="fw-bold mb-3">Von ägyptischen Kornmahlerinnen zur modernen Mühle</h6>
+                        <p class="text-muted small mb-0">Fermentum tortor non enim aliquet mauris del condimentum. Nam
+                            aliquam pretium duis sem feugiat con...</p>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <div class="p-4 bg-light rounded shadow-sm h-100">
+                        <small class="text-muted d-block mb-2 text-uppercase">Brotkultur, 25/06/2015</small>
+                        <h6 class="fw-bold mb-3">Von ägyptischen Kornmahlerinnen zur modernen Mühle</h6>
+                        <p class="text-muted small mb-0">Fermentum tortor non enim aliquet mauris del condimentum. Nam
+                            aliquam pretium duis sem feugiat con...</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
         </div>
     </section>
+
 </main>
+<footer class="footer-bar mt-5">
+    <div class="container">
+        <div class=" d-flex justify-content-between flex-wrap">
+            <div>
+                © 2025 <strong>BrotExperte.de</strong>, Alle Rechte vorbehalten.
+            </div>
+            <div class="footer-right">
+                <a href="#">Brotlinks</a> /
+                <a href="#">Impressum</a> /
+                <a href="#">Datenschutz</a> /
+                <a href="#">Wer betreibt diesen Blog</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
